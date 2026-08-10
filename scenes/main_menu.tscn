@@ -1,0 +1,92 @@
+[gd_scene format=3 uid="uid://dsuvyiip4juhu"]
+
+[ext_resource type="Script" uid="uid://st6i0b5l6mgy" path="res://scenes/main_menu.gd" id="1_l6cm7"]
+[ext_resource type="AudioStream" uid="uid://6kvdnb6goqaq" path="res://sounds/Milky_Way.mp3" id="2_ekxnf"]
+[ext_resource type="AudioStream" uid="uid://duexq0fl5iv1t" path="res://sounds/denielcz-immersivecontrol-button-click-sound-463065.mp3" id="3_bqqt6"]
+
+[node name="MainMenu" type="Control" unique_id=510320830]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_l6cm7")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1216842696]
+layout_mode = 0
+offset_left = -621.0
+offset_top = -340.0
+offset_right = 657.0
+offset_bottom = 378.0
+color = Color(0.19788411, 0.19025964, 0.26112086, 1)
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=172197311]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -56.5
+offset_top = -81.5
+offset_right = 56.5
+offset_bottom = 81.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer" unique_id=1181610440]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer" unique_id=1302516327]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=1651503965]
+layout_mode = 2
+theme_type_variation = &"Title"
+text = "MineSweeper"
+horizontal_alignment = 1
+
+[node name="Start" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=1534018643]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Start"
+
+[node name="Credits" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=646126660]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Credits"
+
+[node name="Exit" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=1380423444]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Exit"
+
+[node name="Label2" type="Label" parent="." unique_id=56701333]
+layout_mode = 0
+offset_left = 390.0
+offset_top = 329.0
+offset_right = 652.0
+offset_bottom = 371.0
+theme_type_variation = &"Title"
+theme_override_font_sizes/font_size = 45
+text = "@Trallan_omg"
+horizontal_alignment = 1
+
+[node name="BackgroundMusic" type="AudioStreamPlayer" parent="." unique_id=543476031]
+stream = ExtResource("2_ekxnf")
+volume_db = -10.0
+autoplay = true
+bus = &"Music"
+
+[node name="SfxClic" type="AudioStreamPlayer" parent="." unique_id=1636712248]
+stream = ExtResource("3_bqqt6")
+bus = &"SFX"

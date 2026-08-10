@@ -1,0 +1,160 @@
+[gd_resource type="Theme" format=3 uid="uid://ckt757w8ihlxn"]
+
+[ext_resource type="Texture2D" uid="uid://yoxoygi5wna7" path="res://assets/minesweeper_00.png" id="1_iehnn"]
+[ext_resource type="Texture2D" uid="uid://imjqskl3632x" path="res://assets/minesweeper_05.png" id="2_t7onf"]
+[ext_resource type="Texture2D" uid="uid://djceyvbpac1yb" path="res://assets/minesweeper_15.png" id="3_ouajo"]
+[ext_resource type="Texture2D" uid="uid://dyiybyoiqjewv" path="res://assets/minesweeper_01.png" id="4_j5sbq"]
+[ext_resource type="Texture2D" uid="uid://dwn7g8ekxmghr" path="res://assets/minesweeper_12.png" id="5_lbyuf"]
+[ext_resource type="Texture2D" uid="uid://dnkn5co66hpuj" path="res://assets/minesweeper_02.png" id="6_ogd5j"]
+[ext_resource type="Texture2D" uid="uid://cwk6q6j1e72ps" path="res://assets/minesweeper_11.png" id="7_5vjy4"]
+[ext_resource type="Texture2D" uid="uid://bdugnh13wvuxj" path="res://assets/minesweeper_08.png" id="8_x5jkt"]
+[ext_resource type="Texture2D" uid="uid://b0p3om0p763w2" path="res://assets/minesweeper_14.png" id="9_571rs"]
+[ext_resource type="Texture2D" uid="uid://b7jtqbj8clwe8" path="res://assets/minesweeper_13.png" id="10_ynyh7"]
+[ext_resource type="Texture2D" uid="uid://teha0mme0fqt" path="res://assets/minesweeper_10.png" id="11_650ll"]
+[ext_resource type="Texture2D" uid="uid://coqjkt7yg7ysv" path="res://assets/minesweeper_09.png" id="12_bgkpm"]
+[ext_resource type="Texture2D" uid="uid://d1b0l12yk1mno" path="res://assets/minesweeper_07.png" id="13_wxp6s"]
+[ext_resource type="Texture2D" uid="uid://bgckj78qia366" path="res://assets/minesweeper_06.png" id="14_lwgk7"]
+[ext_resource type="FontFile" uid="uid://c245dnb236lxr" path="res://fonts/ThaleahFat.ttf" id="15_t7onf"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_t7onf"]
+texture = ExtResource("2_t7onf")
+modulate_color = Color(0.739342, 0.739342, 0.739342, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ouajo"]
+texture = ExtResource("2_t7onf")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_j5sbq"]
+texture = ExtResource("3_ouajo")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_lbyuf"]
+texture = ExtResource("3_ouajo")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ogd5j"]
+texture = ExtResource("4_j5sbq")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5vjy4"]
+texture = ExtResource("4_j5sbq")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_x5jkt"]
+texture = ExtResource("5_lbyuf")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_571rs"]
+texture = ExtResource("5_lbyuf")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ynyh7"]
+texture = ExtResource("6_ogd5j")
+modulate_color = Color(0.85814106, 0.85814106, 0.85814106, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_650ll"]
+texture = ExtResource("6_ogd5j")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bgkpm"]
+texture = ExtResource("7_5vjy4")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wxp6s"]
+texture = ExtResource("7_5vjy4")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_lwgk7"]
+texture = ExtResource("1_iehnn")
+modulate_color = Color(0.85814106, 0.85814106, 0.85814106, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jq4af"]
+texture = ExtResource("1_iehnn")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3cghe"]
+texture = ExtResource("8_x5jkt")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_iew0c"]
+texture = ExtResource("8_x5jkt")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jvgnt"]
+texture = ExtResource("9_571rs")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xb8v0"]
+texture = ExtResource("9_571rs")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ifyii"]
+texture = ExtResource("10_ynyh7")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_hddw8"]
+texture = ExtResource("10_ynyh7")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jrssp"]
+texture = ExtResource("11_650ll")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_i70dn"]
+texture = ExtResource("11_650ll")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_b2jaw"]
+texture = ExtResource("12_bgkpm")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_y8q2y"]
+texture = ExtResource("12_bgkpm")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_fqacf"]
+texture = ExtResource("13_wxp6s")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_lphk6"]
+texture = ExtResource("13_wxp6s")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_30uav"]
+texture = ExtResource("14_lwgk7")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8sf5f"]
+texture = ExtResource("14_lwgk7")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_fmeo2"]
+texture = ExtResource("14_lwgk7")
+
+[resource]
+default_font = ExtResource("15_t7onf")
+default_font_size = 32
+BombButton/base_type = &"Button"
+BombButton/styles/hover = SubResource("StyleBoxTexture_t7onf")
+BombButton/styles/normal = SubResource("StyleBoxTexture_ouajo")
+EightButton/base_type = &"Button"
+EightButton/styles/hover = SubResource("StyleBoxTexture_j5sbq")
+EightButton/styles/normal = SubResource("StyleBoxTexture_lbyuf")
+EmptyButton/base_type = &"Button"
+EmptyButton/styles/hover = SubResource("StyleBoxTexture_ogd5j")
+EmptyButton/styles/normal = SubResource("StyleBoxTexture_5vjy4")
+FiveButton/base_type = &"Button"
+FiveButton/styles/hover = SubResource("StyleBoxTexture_x5jkt")
+FiveButton/styles/normal = SubResource("StyleBoxTexture_571rs")
+FlagButton/base_type = &"Button"
+FlagButton/styles/hover = SubResource("StyleBoxTexture_ynyh7")
+FlagButton/styles/normal = SubResource("StyleBoxTexture_650ll")
+FourButton/base_type = &"Button"
+FourButton/styles/hover = SubResource("StyleBoxTexture_bgkpm")
+FourButton/styles/normal = SubResource("StyleBoxTexture_wxp6s")
+MarginContainer/constants/margin_bottom = 32
+MarginContainer/constants/margin_left = 32
+MarginContainer/constants/margin_right = 32
+MarginContainer/constants/margin_top = 32
+NormalButton/base_type = &"Button"
+NormalButton/styles/hover = SubResource("StyleBoxTexture_lwgk7")
+NormalButton/styles/normal = SubResource("StyleBoxTexture_jq4af")
+OneButton/base_type = &"Button"
+OneButton/styles/hover = SubResource("StyleBoxTexture_3cghe")
+OneButton/styles/normal = SubResource("StyleBoxTexture_iew0c")
+SevenButton/base_type = &"Button"
+SevenButton/styles/hover = SubResource("StyleBoxTexture_jvgnt")
+SevenButton/styles/normal = SubResource("StyleBoxTexture_xb8v0")
+SixButton/base_type = &"Button"
+SixButton/styles/hover = SubResource("StyleBoxTexture_ifyii")
+SixButton/styles/normal = SubResource("StyleBoxTexture_hddw8")
+ThreeButton/base_type = &"Button"
+ThreeButton/styles/hover = SubResource("StyleBoxTexture_jrssp")
+ThreeButton/styles/normal = SubResource("StyleBoxTexture_i70dn")
+Title/base_type = &"Label"
+Title/font_sizes/font_size = 64
+TwoButton/base_type = &"Button"
+TwoButton/styles/hover = SubResource("StyleBoxTexture_b2jaw")
+TwoButton/styles/normal = SubResource("StyleBoxTexture_y8q2y")
+WrongBombButton/base_type = &"Button"
+WrongBombButton/styles/hover = SubResource("StyleBoxTexture_fqacf")
+WrongBombButton/styles/normal = SubResource("StyleBoxTexture_lphk6")
+WrongButton/base_type = &"Button"
+WrongButton/styles/disabled = SubResource("StyleBoxTexture_30uav")
+WrongButton/styles/hover = SubResource("StyleBoxTexture_8sf5f")
+WrongButton/styles/normal = SubResource("StyleBoxTexture_fmeo2")

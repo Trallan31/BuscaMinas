@@ -1,0 +1,66 @@
+[gd_scene format=3 uid="uid://d051pxfwq2dij"]
+
+[ext_resource type="Script" uid="uid://dxx7838pjl3b4" path="res://pause_menu.gd" id="1_n87rw"]
+[ext_resource type="AudioStream" uid="uid://duexq0fl5iv1t" path="res://sounds/denielcz-immersivecontrol-button-click-sound-463065.mp3" id="2_myx47"]
+
+[node name="PauseMenu" type="Control" unique_id=584510796]
+process_mode = 3
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_n87rw")
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=384878173]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -56.5
+offset_top = -81.5
+offset_right = 56.5
+offset_bottom = 81.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer" unique_id=778239927]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer" unique_id=2028262844]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=236375746]
+layout_mode = 2
+theme_type_variation = &"Title"
+text = "Pause"
+horizontal_alignment = 1
+
+[node name="Resume" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=781688021]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Resume"
+
+[node name="Restart" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=482547405]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Restart"
+
+[node name="BackToMenu" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=1988534756]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Back to Menu"
+
+[node name="Exit" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=958995767]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Exit"
+
+[node name="Sfxclic" type="AudioStreamPlayer" parent="." unique_id=395879201]
+stream = ExtResource("2_myx47")
+bus = &"SFX"

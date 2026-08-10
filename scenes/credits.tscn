@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://edugqj3crbek"]
+
+[ext_resource type="Script" uid="uid://dt8xti07i3jns" path="res://scenes/credits.gd" id="1_2ckv8"]
+[ext_resource type="AudioStream" uid="uid://duexq0fl5iv1t" path="res://sounds/denielcz-immersivecontrol-button-click-sound-463065.mp3" id="2_0ctdu"]
+[ext_resource type="Script" uid="uid://omjsht7yr1sa" path="res://scenes/rich_text_label.gd" id="2_2fbfq"]
+[ext_resource type="AudioStream" uid="uid://dgda8f7q5cowx" path="res://sounds/credits.mp3" id="3_0ctdu"]
+
+[node name="Credits" type="Control" unique_id=2050597128]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_2ckv8")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1853190549]
+layout_mode = 0
+offset_right = 1277.0
+offset_bottom = 716.0
+color = Color(0.14509805, 0.14509805, 0.14509805, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=146137824]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 9.0
+offset_right = 1268.0
+offset_bottom = 706.0
+bbcode_enabled = true
+text = "[wave amp=50][rainbow][center][font_size=70]Credits[/font_size][/center][/rainbow][/wave]
+[wave amp=50][rainbow][left][font_size=56]Assets[/font_size][/left][/rainbow][/wave]
+[url=https://gooseninja.itch.io/pixel-minesweeper][left][font_size=46]Pixel Minesweeper[/font_size][/left][/url]
+[wave amp=50][rainbow][right][font_size=56]Fonts[/font_size][/right][/rainbow][/wave]
+[url=https://tinyworlds.itch.io/free-pixel-font-thaleah][right][font_size=46]Free Pixel Font[/font_size][/right][/url]
+[wave amp=50][rainbow][center][font_size=56]Background Music[/font_size][/center][/rainbow][/wave]
+[url=https://dova-s.jp/en/bgm/detail/9596][center][font_size=46]Milky Way[/font_size][/center][/url]
+[url=https://pixabay.com/sound-effects/musical-background-music-pa-57786/][center][font_size=46]Background music PA![/font_size][/center][/url]
+[url=https://pixabay.com/sound-effects/musical-arabic-islam-islamic-music-46-second-494148/][center][font_size=46]Arabic Islam Islamic Music 46 Second[/font_size][/center][/url]
+[wave amp=50][rainbow][left][font_size=56]SFX Sounds[/font_size][/left][/rainbow][/wave]
+[url=https://pixabay.com/sound-effects/immersivecontrol-button-click-sound-463065/][left][font_size=46]ImmersiveControl Button Click Sound[/font_size][/left][/url]
+[url=https://pixabay.com/sound-effects/film-special-effects-loud-explosion-425467/][left][font_size=46]Loud Explosion[/font_size][/left][/url]
+[url=https://pixabay.com/sound-effects/film-special-effects-plate-put-down-88789/][left][font_size=46]Plate Put Down[/font_size][/left][/url]
+[url=https://pixabay.com/sound-effects/film-special-effects-mug-2-88838/][left][font_size=46]mug_2[/font_size][/left][/url]"
+script = ExtResource("2_2fbfq")
+
+[node name="Menu" type="Button" parent="." unique_id=173392627]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 10.0
+offset_right = 117.0
+offset_bottom = 43.0
+text = "< Back to Menu"
+
+[node name="SfxClic" type="AudioStreamPlayer" parent="." unique_id=477072548]
+stream = ExtResource("2_0ctdu")
+bus = &"SFX"
+
+[node name="Background" type="AudioStreamPlayer" parent="." unique_id=44417638]
+stream = ExtResource("3_0ctdu")
+volume_db = -10.0
+autoplay = true
+bus = &"Music"
+
+[connection signal="meta_clicked" from="RichTextLabel" to="RichTextLabel" method="_on_meta_clicked"]

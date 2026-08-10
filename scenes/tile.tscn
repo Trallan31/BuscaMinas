@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://blwv6ppmfvwr7"]
+
+[ext_resource type="Script" uid="uid://bjdalvccjohut" path="res://scenes/tile.gd" id="1_3dk36"]
+[ext_resource type="AudioStream" uid="uid://5wb4882qv2v4" path="res://sounds/put_flag.mp3" id="2_ywnoi"]
+
+[node name="Tile" type="Button" unique_id=2121974298]
+custom_minimum_size = Vector2(128, 128)
+offset_right = 15.0
+offset_bottom = 14.0
+script = ExtResource("1_3dk36")
+
+[node name="Flag" type="AudioStreamPlayer" parent="." unique_id=1107279608]
+stream = ExtResource("2_ywnoi")
+bus = &"SFX"
